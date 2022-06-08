@@ -1,8 +1,8 @@
 {
-  "name": "look-book-engine",
+  "name": "book-search-engine",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "cd server && npm start",
@@ -12,19 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VAalchemist/look-book-engine.git"
+    "url": "git+https://github.com/VAalchemist/lookbook-engine.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "ISC", 
+  "bugs": {
+    "url": "https://github.com/VAalchemist/lookbook-engineissues"
+  },
+  "homepage": "https://github.com/VAalchemist/lookbook-engine#readme",
   "dependencies": {
     "if-env": "^1.0.4"
   },
   "devDependencies": {
-    "concurrently": "^5.1.0",
-  },
-  "bugs": {
-    "url": "https://github.com/VAalchemist/look-book-engine/issues"
-  },
-  "homepage": "https://github.com/VAalchemist/look-book-engine#readme"
+    "concurrently": "^7.2.1"
+  }
 }
