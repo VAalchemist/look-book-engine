@@ -2,7 +2,7 @@
 
 
 # Snapshots
-![Demo](client/assests/initial launch.PNG)
+![Demo](https://raw.githubusercontent.com/VAalchemist/look-book-engine/main/client/assests/initial%20launch.PNG)
 
 ![](https://img.shields.io/badge/REACT-purple.svg)
 ![](https://img.shields.io/badge/Javascript-yellow.svg)
