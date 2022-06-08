@@ -17,7 +17,21 @@ const resolvers = {
   },
 
   Mutation: {
-    
+    addUser: async (parent, args) => {
+
+    },
+
+    login: async (parent, {email, password}) => {
+
+    },
+
+    saveBook: async (parent, args, context) => {
+
+    },
+
+    removeBook: async (parent, args, context) => {
+
+    }    
   }
 
 
