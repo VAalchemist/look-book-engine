@@ -15,6 +15,7 @@ const [searchInput, setSearchInput] = useState('');
 
   // create state to hold saved bookId values
 const [savedBookIds, setSavedBookIds] = useState(getSavedBookIds());
+// eslint-disable-next-line
 const [saveBook, {error}] = useMutation(SAVE_BOOK);
 
 
@@ -69,6 +70,7 @@ const [saveBook, {error}] = useMutation(SAVE_BOOK);
     }
 
     try {
+      // eslint-disable-next-line
       const {data} = await saveBook({variables: {bookData: {...bookToSave}}});
       console.log(savedBookIds);
       // if book successfully saves to user's account, save book id to state
