@@ -1,5 +1,9 @@
 # Look Book Engine
 
+
+# Snapshots
+![Demo](client/assests/initial launch.PNG)
+
 ![](https://img.shields.io/badge/REACT-purple.svg)
 ![](https://img.shields.io/badge/Javascript-yellow.svg)
 ![](https://img.shields.io/badge/Node.js-green.svg)
@@ -15,7 +19,7 @@
 
 
 # Description
-  A react web application that allows users to search for books by title or author. Check it out [here!]()
+  A react web application that allows users to search for books by title or author. Check it out [here!](https://lookbook-engine.herokuapp.com/)
 
 
 # Installation
@@ -28,13 +32,6 @@
    * Followed by: 
        * <code>npm install</code>
    * Run react app: <code>npm start</code>
-
-# Snapshots
-![]()
-
-![]()
-
-
 
 # Packages Used
   * Apollo
